@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>REACT Widgets</title>
+    <script src="https://fb.me/react-0.13.3.js" charset="utf-8"></script>
+    <script src="https://fb.me/JSXTransformer-0.13.3.js" charset="utf-8"></script>
+    <script src="./autocomplete.js" type="text/jsx"></script>
+    <script src="./weather_clock.js" type="text/jsx"></script>
+    <script src="./tabs.js" type="text/jsx"></script>
+
+  </head>
+  <body>
+
+    <div id="autocomplete"></div>
+    <div id="weather-clock"></div>
+    <div id="tabs-control"></div>
+    <script type="text/jsx">
+      React.render(
+      <AutoComplete names={ names } />,
+      document.getElementById('autocomplete')
+    )
+      React.render(
+      <WeatherClock />,
+      document.getElementById('weather-clock')
+    )
+      React.render(
+      <TabsControl tabs={tabs} />,
+      document.getElementById('tabs-control')
+    )
+    </script>
+  </body>
+</html>
