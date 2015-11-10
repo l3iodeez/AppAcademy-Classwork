@@ -1,0 +1,63 @@
+html, body, h1, ul, li,
+div, h2, h3, input, button,
+form, textarea, label {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+
+  text-align: inherit;
+  color: inherit;
+  font: inherit;
+
+  background-color: transparent;
+}
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+label {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+input, textarea, button {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: left;
+  display: block;
+}
+
+input:not([type="submit"]), textarea {
+  margin-bottom: 5px;
+  width: calc(100% - 22px);
+  background-color: white;
+}
+
+input:focus, textarea:focus {
+  border-color: blue;
+}
+
+input[type="submit"], button {
+  background-color: lightgray;
+}
+
+input[type="submit"]:hover, button:hover {
+  background-color: gray;
+  color: white;
+}

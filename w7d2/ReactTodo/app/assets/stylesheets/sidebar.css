@@ -1,0 +1,6 @@
+.sidebar {
+  float: left;
+  border-right: 1px solid black;
+  background-color: lightgray;
+  width: 300px;
+}
