@@ -1,0 +1,23 @@
+.organ {
+  width: 700px;
+  border: 2px solid black;
+  display: block;
+  margin: 100px auto;
+}
+
+.organ-key {
+  width: 66px;
+  height: 200px;
+  border: 2px solid lightgray;
+  float: left;
+}
+.organ-key.pressed {
+  color: white;
+  background-color: gray;
+}
+
+.container {
+  width: 700px;
+  margin: auto;
+
+}

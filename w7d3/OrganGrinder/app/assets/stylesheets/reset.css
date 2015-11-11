@@ -1,0 +1,18 @@
+html, body, div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  font: inherit;
+
+  background: transparent;
+}
+
+.group:after{
+  content: "";
+  display: block;
+  clear: both;
+}

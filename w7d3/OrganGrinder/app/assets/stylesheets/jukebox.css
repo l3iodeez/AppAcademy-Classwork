@@ -1,0 +1,18 @@
+.jukebox {
+  width: 300px;
+  border: 2px solid black;
+  display: block;
+  margin: auto;
+  min-height: 30px;
+}
+
+.jukebox-track {
+  display: block;
+  font-size: 16px;
+  border: 1px solid lightgray;
+}
+
+.jukebox h3 {
+  text-align: center;
+  border-bottom: 2px solid black;
+}
